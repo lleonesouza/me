@@ -1,0 +1,40 @@
+{
+    "nav": {
+        "projects": "projects",
+        "home": "home",
+        "works": "works",
+        "tech": "technology",
+        "bio": "I'm fullstack web and cross-plataform developer, Writer of good and creative code, specialist in JavaScript"
+    },
+
+    "me": {
+        "nav": "Here you can navigate into my projects",
+        "asperger": "I'm an asperger, my photograph mind just help me to code",
+        "welcome": "Welcome",
+        "welcome1": "I create this website for you know some of my Open Source and Personal Projects",
+        "techBio": "I'm fullstack web and cross-plataform developer",
+        "writer": "Writer of good and creative code, specialist in JavaScript. =}",
+        "technology": "If you are a company, please, check the technology that I use",
+        "donate": "Use or Like some my Projects? Make me a Donation",
+        "feedback": "Want tell me something? go to contact"
+    },
+
+    "works": {
+        "software": "Hi, Theses are softwares already done. Come on, take a look. =}",
+        "red": "The reds are for Windows, Linux and Mac,",
+        "purple": "the purples, back-side,",
+        "green": "the green, front-side",
+        "black": "and blacks are the full-stacks projects",
+        "order": "If you wanna order some software, go to contact"
+    },
+
+    "tech": {
+        "cloud": "I'm good at cloud, just ruled AWS and GCloud API. And yes, I do good tests and use typescript too",
+        "hireMe": "I'm looking for a developer job in Canada",
+        "hireContact": "Hire me",
+        "github": "Check my open-source code on github",
+        "projects": "I highly recommend you navigate here, there are all of my open and non-open projects with the documentation"
+    }
+
+   
+}
