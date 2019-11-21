@@ -1,0 +1,13 @@
+
+.swim{
+    animation: mymove 10s infinite
+}
+
+
+@keyframes mymove {
+    0%   {top: 0px; right: 0vw; opacity: 0}
+    25%  {top: 320px; right: 25vw; opacity: 0.3}
+    50%  {top: 0px; right: 35vw;}
+    75%  {top: 200px; right: 45vw;}
+    100% {top: 0px; right: 110vw;}
+}
