@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Loading from './components/loading/loading'
+import {
+    isMobile
+  } from "react-device-detect";
 
 ReactDOM.render(<Suspense fallback={<Loading/>} >
-    <App />
+    {isMobile ? <div>
+        <h1>Sorry, I'm Building the Mobile Version</h1>
+        <h2>Acess it from computer Browser</h2>
+        <Loading/> 
+    </div> :  <App />}
 </Suspense>
 , document.getElementById('root'));
 

@@ -92,7 +92,7 @@ let NavDiv = styled.div({
 let DropDiv = styled.div({
     position: 'absolute',   
     top: '0vh',
-    left: '18vw',
+    left: '250px',
     display: 'flex',
     flexWrap: 'wrap',
     boxShadow: '0px 0px 30px -1px rgba(0,0,0,0.8)',

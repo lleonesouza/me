@@ -4,19 +4,28 @@ import styled from '@emotion/styled'
 let Top = styled.ul({
     // border: '1px white solid',
     position: 'absolute',
-    left: '22vw',
-    height: '55vh',
-    width: '80%',
-    margin: 'auto',
+    left: '250px',
+    top: '5vh',
+    height: 'auto',
+    width: 'auto',
+    margin: '0px',
     display: 'flex',
-    alignItems: 'left',
+    alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column',
 })
 
 let Li = styled.li({
     // border: '1px white solid',
-    margin: '5px'
+    minHeight: '50px',
+    height: 'auto',
+    width: 'auto',
+    padding: '10px',
+    listStyle: 'none',
+    background: 'rgba(255,255,255,0.1)',
+    color: 'white',
+    fontSize: '23px',
+    letterSpacing: '0.5px'
 })
 
 let Tech = styled.div({

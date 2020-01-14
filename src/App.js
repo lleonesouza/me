@@ -55,7 +55,7 @@ function App() {
   var routes = [
     {
       title: "me",
-      url: "/",
+      url: "/me",
       component: Central
     },
     {

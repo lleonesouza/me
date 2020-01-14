@@ -2,6 +2,7 @@ import React, {useState, Fragment} from 'react'
 import {DropLi, DropUl, DropDiv} from '../css'
 import Project from './projects'
 import { Transition } from "react-spring/renderprops";
+import Arrows from './arrows'
 
 export default function Dropdown({projects}) {
     let [drop, setDrop] = useState(false)
@@ -9,7 +10,7 @@ export default function Dropdown({projects}) {
     return (
       <div>
         <DropUl>
-          <DropLi onMouseOver={() => setDrop(true)}>Recentily Projects -></DropLi>
+          <DropLi onMouseOver={() => setDrop(true)}>Recent Projects <Arrows/> </DropLi>
         </DropUl>
 
         <Transition
